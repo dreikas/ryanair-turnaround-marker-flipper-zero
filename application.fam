@@ -1,0 +1,13 @@
+App(
+    appid="ryanair_turnaround_timer",
+    name="Turnaround Timer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ryanair_turnaround_timer_app",
+    stack_size=2048,
+    fap_category="Tools",
+    fap_version="1.0",
+    fap_description="Aircraft turnaround event timestamp logger",
+    fap_author="Custom",
+    fap_weburl="",
+    requires=["gui"],
+)
